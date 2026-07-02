@@ -1,3 +1,5 @@
 #include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
 #include "Generated.xcconfig"
-GAD_APPLICATION_IDENTIFIER=
+// Keep release launches safe even when ad monetization is not enabled yet.
+// Replace this with your production AdMob app ID before shipping real ads.
+GAD_APPLICATION_IDENTIFIER=ca-app-pub-3940256099942544~1458002511
